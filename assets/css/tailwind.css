@@ -10,9 +10,15 @@
     position: relative;
   }
   .article-box {
+    /* background: linear-gradient(180deg, #e4e4ec -21.77%, #f4f4f4 100%); */
+    /* backdrop-filter: blur(250px); */
     background: linear-gradient(180deg, rgba(6, 18, 55, 0.1) -21.77%, rgba(248, 248, 249, 0.1) 100%);
     backdrop-filter: blur(250px);
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 12px;
+  }
+  .company-thumb {
+    filter: drop-shadow(0px 4px 90px rgba(7, 19, 56, 0.08));
+    border-radius: 24px;
   }
 }

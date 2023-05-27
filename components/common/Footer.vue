@@ -89,9 +89,9 @@ let list = computed(() => {
       </button>
     </div>
     <div
-      class="flex flex-col items-center xl:flex-row justify-center gap-10 lg:gap-[270px] bg-[#061237] rounded-t-3xl lg:rounded-t-[60px] pt-[363px] pb-[110px]">
+      class="flex flex-col items-center xl:flex-row justify-center gap-10 xl:gap-[270px] bg-[#061237] rounded-t-3xl xl:rounded-t-[60px] pt-[363px] pb-[110px]">
       <img class="w-[140px] h-[60px]" src="@img/logo.png" alt="">
-      <div class="flex flex-wrap px-6 lg:px-0 gap-40">
+      <div class="flex flex-wrap px-6 xl:px-0 gap-40">
         <div class="flex flex-col gap-6 text-white" v-for="item in list" :key="item.title">
           <h5 class="text-xl">{{ item.title }}</h5>
           <div class="flex flex-col gap-4">
@@ -100,15 +100,15 @@ let list = computed(() => {
         </div>
       </div>
     </div>
-    <div class="bg-[#061237] lg:hidden flex gap-4 text-[#FFFFFFB2] text-sm lg:text-base justify-end px-6 pb-4">
+    <div class="bg-[#061237] xl:hidden flex gap-4 text-[#FFFFFFB2] text-sm xl:text-base justify-end px-6 pb-4">
       <a>Privacy</a>
       <a>Terms</a>
     </div>
     <div class="bg-[#061237]">
       <div
-        class="px-6 lg:px-0 xl:max-w-[1320px] mx-auto h-14 lg:h-20 border-t-2 border-t-line flex items-center justify-center lg:justify-between text-[#FFFFFFB2] text-sm lg:text-base">
+        class="px-6 xl:px-0 xl:max-w-[1320px] mx-auto h-14 lg:h-20 border-t-2 border-t-line flex items-center justify-center xl:justify-between text-[#FFFFFFB2] text-sm xl:text-base">
         <p>© 2010-2020 Access Media. All rights reserved.</p>
-        <div class="hidden lg:blockflex gap-4">
+        <div class="hidden lg:flex  gap-4">
           <a>Privacy</a>
           <a>Terms</a>
         </div>

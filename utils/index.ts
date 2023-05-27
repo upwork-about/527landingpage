@@ -1,3 +1,3 @@
-export const getImageUrl = url => {
+export const getImageUrl = (url: string) => {
   return new URL(`../assets/img/${url}`, import.meta.url).href;
 };
