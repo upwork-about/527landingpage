@@ -6,9 +6,9 @@ onMounted(() => { })
 let queryParams = computed(() => { })
 </script>
 <template>
-  <div class="bg-[url('@img/bg.png')] bg-[length:100%_100%] text-center pt-8 pb-20 lg:pb-[373px]">
+  <div class="bg-[url('/img/bg.png')] bg-[length:100%_100%] text-center pt-8 pb-20 lg:pb-[373px]">
     <div class="flex flex-col items-center px-6 lg:px-0">
-      <img class="w-[140px]" src="@img/logo.png" alt="">
+      <img class="w-[140px]" src="/img/logo.png" alt="">
       <h3 class="mt-12 lg:mt-40 lg:w-[978px] text-[30px] lg:text-7xl text-white">Create Your Content with Our Article
         Generator
       </h3>

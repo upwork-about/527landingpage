@@ -79,7 +79,7 @@ let list = computed(() => {
 <template>
   <div class='bg-white relative'>
     <div
-      class="absolute left-1/2 -top-[100px] -translate-x-1/2 flex flex-col items-center w-4/5 rounded-3xl xl:w-[1345px] px-8 lg:px-0 py-20 bg-[url('@img/footer-thumb.png')] bg-[length:100%_100%]">
+      class="absolute left-1/2 -top-[100px] -translate-x-1/2 flex flex-col items-center w-4/5 rounded-3xl xl:w-[1345px] px-8 lg:px-0 py-20 bg-[url('/img/footer-thumb.png')] bg-[length:100%_100%]">
       <h3 class="text-3xl lg:text-[48px] text-white">Let's talk</h3>
       <p class="mt-5 text-sm lg:text-base text-center text-slate-400">Our product specialists and customer success team
         are always
@@ -90,7 +90,7 @@ let list = computed(() => {
     </div>
     <div
       class="flex flex-col items-center xl:flex-row justify-center gap-10 xl:gap-[270px] bg-[#061237] rounded-t-3xl xl:rounded-t-[60px] pt-[363px] pb-[110px]">
-      <img class="w-[140px] h-[60px]" src="@img/logo.png" alt="">
+      <img class="w-[140px] h-[60px]" src="/img/logo.png" alt="">
       <div class="flex flex-wrap px-6 xl:px-0 gap-40">
         <div class="flex flex-col gap-6 text-white" v-for="item in list" :key="item.title">
           <h5 class="text-xl">{{ item.title }}</h5>

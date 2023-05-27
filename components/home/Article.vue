@@ -44,7 +44,7 @@ let queryParams = computed(() => { })
       </button>
     </div>
     <div class="hidden xl:flex flex-col w-[700px]">
-      <img src="@img/article-thumb.png" alt="">
+      <img src="/img/article-thumb.png" alt="">
     </div>
   </div>
 </template>
