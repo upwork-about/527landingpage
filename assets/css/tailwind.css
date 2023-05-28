@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html,
+  body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    overscroll-behavior: none;
+  }
+}
 @layer components {
   .form-article-box {
     border-radius: 8px;

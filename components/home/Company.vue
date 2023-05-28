@@ -32,12 +32,12 @@ const list = computed(() => {
 </script>
 <template>
   <div class="bg-[#061237]">
-    <div class='rounded-t-[60px]  bg-white flex flex-col items-center pb-20 lg:pb-[178px]'>
+    <div class='rounded-t-[60px]  bg-white flex flex-col items-center pb-20 xl:pb-[178px]'>
       <img class="relative -top-[30px] xl:-top-[200px] w-4/5 xl:w-[1256px] company-thumb" src="/img/company-thumb.png"
         alt="">
       <div class="flex flex-col items-center px-6 xl:px-0">
         <p class="text-6 text-[#040c25]">Trusted by the World's Best Companies</p>
-        <div class="mt-4 lg:mt-12 flex justify-center flex-wrap gap-y-4 gap-x-8 lg:gap-20">
+        <div class="mt-4 xl:mt-12 flex justify-center flex-wrap gap-y-4 gap-x-8 xl:gap-20">
           <div class="flex gap-2 xl:gap-4 items-center" v-for="item in list" :key="item.title">
             <img class="w-5 xl:w-10" :src="`/img/${item.icon}`" alt="">
             <span class="text-sm xl:text-xl font-medium">{{ item.title }}</span>

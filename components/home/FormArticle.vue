@@ -21,10 +21,10 @@ let queryParams = computed(() => { })
       <button class="mt-8 w-[168px] h-[56px] bg-gradient-to-b from-[#1ABAED] to-[#0073DC] text-white rounded">Start
         Now</button>
     </div>
-    <div class="w-full xl:w-[533px] flex flex-col items-center text-center ">
-      <h3 class="text-white w-full xl:w-[473px] text-3xl xl:text-4xl">Everything need to quickly write
-        exciting new
-        article</h3>
+    <div class="w-full xl:w-[533px] flex flex-col items-center text-center xl:text-left ">
+      <h3 class="text-white w-full font-bold xl:w-[473px] text-3xl xl:text-4xl">
+        Everything need to quickly write exciting new article
+      </h3>
       <p class="mt-4 text-white text-opacity-80 w-full xl:w-[473px] text-sm xl:text-base">From in-depth tutorials, to
         detailed
         changelogs, to
