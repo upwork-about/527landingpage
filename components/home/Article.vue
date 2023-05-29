@@ -8,7 +8,7 @@ let queryParams = computed(() => { })
 <template>
   <div class='flex flex-col xl:flex-row items-center justify-center gap-[160px] bg-white pt-20 pb-40 xl:py-[200px]'>
 
-    <div class="w-full px-6 xl:px-0 xl:w-[533px] flex flex-col items-center text-center xl:text-left">
+    <div class="w-full px-6 xl:px-0 xl:w-[533px] flex flex-col items-center text-left">
       <h3 class="text-h w-full  xl:w-[473px] text-4xl font-bold">
         Get a complete article in just few minutes with Access Media
       </h3>
@@ -17,7 +17,8 @@ let queryParams = computed(() => { })
         integer amet. Cras aliquet convallis amet pellentesque arcu vel. Varius.
       </p>
       <div class="relative article-box mt-[66px] w-[273px] h-[407px] xl:w-[533px] xl:h-[412px] text-left">
-        <div class="absolute article-box -top-5 -translate-x-1/4 xl:-translate-x-1/3 w-[193px] xl:w-[350px] p-3 xl:p-6">
+        <div
+          class="absolute article-box -top-5 -translate-x-[44px] xl:-translate-x-1/3 w-[193px] xl:w-[350px] p-3 xl:p-6">
           <h4 class="text-h text-base xl:text-2xl font-semibold">Generate Fresh Article</h4>
           <p class="mt-[10px] text-h text-xs xl:text-sm">
             AI writing, you can overcome writer article and create new content that aligns with the latest trends by using
@@ -25,13 +26,14 @@ let queryParams = computed(() => { })
           </p>
         </div>
         <div
-          class="absolute article-box top-[170px] xl:top-[78px] right-0 translate-x-1/4 xl:translate-x-1/3 w-[193px] xl:w-[350px] p-3 xl:p-6 overflow-hidden">
-          <h4 class="text-h text-base xl:text-2xl font-semibold">targeted content</h4>
+          class="absolute article-box top-[170px] xl:top-[78px] right-0 translate-x-[21px] xl:translate-x-1/3 w-[193px] xl:w-[350px] p-3 xl:p-6 overflow-hidden">
+          <h4 class="text-h text-base xl:text-2xl font-semibold">Targeted Content</h4>
           <p class="mt-[10px] text-h text-xs xl:text-sm">
             AI writers can help you create targeted content for specific demographics.
           </p>
         </div>
-        <div class="absolute article-box -bottom-5 xl:bottom-5 -translate-x-1/4 w-[193px] xl:w-[350px] p-3 xl:p-6">
+        <div
+          class="absolute article-box -bottom-5 xl:bottom-5 -translate-x-[56px] xl:-translate-x-1/4 w-[193px] xl:w-[350px] p-3 xl:p-6">
           <h4 class="text-h text-base xl:text-2xl font-semibold">Publish</h4>
           <p class="mt-[10px] text-h text-xs xl:text-sm">
             Lorem ipsum dolor sit amet consectetur. Id nunc mi sem metus adipiscing risus nisi

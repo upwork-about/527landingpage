@@ -32,7 +32,7 @@ const list = computed(() => {
 </script>
 <template>
   <div class="bg-[#061237]">
-    <div class='rounded-t-[60px]  bg-white flex flex-col items-center pb-20 xl:pb-[178px]'>
+    <div class='relative -top-[100px] rounded-t-[60px]  bg-white flex flex-col items-center pb-20 xl:pb-[178px]'>
       <img class="relative -top-[30px] xl:-top-[200px] w-4/5 xl:w-[1256px] company-thumb" src="/img/company-thumb.png"
         alt="">
       <div class="flex flex-col items-center px-6 xl:px-0">

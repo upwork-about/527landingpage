@@ -6,7 +6,7 @@ onMounted(() => { })
 let queryParams = computed(() => { })
 </script>
 <template>
-  <div class='wrap'>
+  <div class='bg-page-bg'>
     <HomeBanner />
     <HomeCompany />
     <HomeFormArticle />

@@ -77,7 +77,7 @@ let list = computed(() => {
 })
 </script>
 <template>
-  <div class='bg-white relative'>
+  <div class='bg-page-bg relative'>
     <div
       class="absolute left-1/2 -top-[100px] -translate-x-1/2 flex flex-col items-center w-4/5 rounded-3xl xl:w-[1345px] px-8 xl:px-0 py-20 bg-[url('/img/footer-thumb.png')] bg-[length:100%_100%]">
       <h3 class="text-3xl xl:text-[48px] text-white">Let's talk</h3>
@@ -89,7 +89,7 @@ let list = computed(() => {
       </button>
     </div>
     <div
-      class="flex flex-col items-center xl:items-stretch  xl:flex-row justify-center gap-10 xl:gap-[270px] bg-[#061237] rounded-t-3xl xl:rounded-t-[60px] pt-[363px] pb-[110px]">
+      class="flex flex-col items-center xl:items-stretch  xl:flex-row justify-center gap-10 xl:gap-[270px]  rounded-t-3xl xl:rounded-t-[60px] pt-[363px] pb-[110px]">
       <img class="w-[140px] h-[60px]" src="/img/logo.png" alt="">
       <div class="flex flex-wrap px-6 xl:px-0 gap-y-10 xl:gap-40 ">
         <div class="flex flex-col  gap-6 text-white w-[160px] pl-4 xl:w-auto" v-for="item in list" :key="item.title">
@@ -100,11 +100,11 @@ let list = computed(() => {
         </div>
       </div>
     </div>
-    <div class="bg-[#061237] xl:hidden flex gap-4 text-[#FFFFFFB2] text-sm xl:text-base justify-end px-6 pb-4">
+    <div class=" xl:hidden flex gap-4 text-[#FFFFFFB2] text-sm xl:text-base justify-end px-6 pb-4">
       <a>Privacy</a>
       <a>Terms</a>
     </div>
-    <div class="bg-[#061237]">
+    <div>
       <div
         class="px-6 xl:px-0 xl:max-w-[1320px] mx-auto h-14 xl:h-20 border-t-2 border-t-line flex items-center justify-center xl:justify-between text-[#FFFFFFB2] text-sm xl:text-base">
         <p>© 2010-2020 Access Media. All rights reserved.</p>
