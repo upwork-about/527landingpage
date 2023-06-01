@@ -7,7 +7,7 @@ let queryParams = computed(() => { })
 </script>
 <template>
   <div
-    class='flex flex-col xl:flex-row items-center justify-center gap-[160px] bg-white pt-20 pb-40 xl:py-[200px] overflow-hidden'>
+    class='flex flex-col xl:flex-row items-center justify-center gap-[160px] xl:gap-[140px] xxl:gap-[160px] bg-white pt-20 pb-40 xl:py-[200px] overflow-hidden'>
 
     <div class="w-full px-6 xl:px-0 xl:w-[533px] flex flex-col items-center text-left">
       <h3 class="text-h w-full  xl:w-[473px] text-4xl font-bold">
@@ -17,7 +17,8 @@ let queryParams = computed(() => { })
         Lorem ipsum dolor sit amet consectetur. In pulvinar odio tristique etiam. Faucibus quis velit amet est tortor
         integer amet. Cras aliquet convallis amet pellentesque arcu vel. Varius.
       </p>
-      <div class="relative article-box mt-[66px] w-[83%] xs:w-[273px] h-[407px] xl:w-[533px] xl:h-[412px] text-left">
+      <div
+        class="relative article-box mt-[66px] w-[83%] xs:w-[273px] h-[407px] xl:w-[533px] xl:h-[412px] text-left xl:scale-x-90 xxl:scale-x-100">
         <div
           class="absolute article-box -top-5 -translate-x-[15%] xs:-translate-x-[44px] xl:-translate-x-1/3 w-[193px] xl:w-[350px] p-3 xl:p-6">
           <h4 class="text-h text-base xl:text-2xl font-semibold">Generate Fresh Article</h4>
@@ -46,7 +47,7 @@ let queryParams = computed(() => { })
         Now
       </button>
     </div>
-    <div class="hidden xl:flex flex-col w-[700px]">
+    <div class="hidden xl:flex flex-col w-[700px] xl:w-[600px] xxl:w-[700px]">
       <img src="/img/article-thumb.png" alt="">
     </div>
   </div>
